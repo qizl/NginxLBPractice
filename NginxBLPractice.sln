@@ -5,9 +5,14 @@ VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API1", "src\API1\API1.csproj", "{3FA8BEFD-ABFE-4577-9F7B-2E33A7DB8EBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API2", "src\API2\API2.csproj", "{AFD05101-F72A-40E5-95F9-CC99C6C86F33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API2", "src\API2\API2.csproj", "{AFD05101-F72A-40E5-95F9-CC99C6C86F33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API3", "src\API3\API3.csproj", "{A7E6B6AD-16C8-4383-A516-AE91437962CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API3", "src\API3\API3.csproj", "{A7E6B6AD-16C8-4383-A516-AE91437962CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nginx", "nginx", "{FE3470B4-E862-4F8D-B46A-5FB873C1797F}"
+	ProjectSection(SolutionItems) = preProject
+		bltest = bltest
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

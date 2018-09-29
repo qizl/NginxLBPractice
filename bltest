@@ -1,0 +1,12 @@
+server {
+    listen      7000;
+    location / {
+        proxy_pass         http://localhost;
+    }
+}
+ 
+upstream localhost {
+    server localhost:8000;
+    server localhost:8001;
+    server localhost:8002;
+}

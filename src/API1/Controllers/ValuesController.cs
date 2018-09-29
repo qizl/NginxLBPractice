@@ -8,11 +8,6 @@ namespace API1.Controllers
     {
         // GET api/values
         [HttpGet]
-        public ActionResult<string> Get()
-        {
-            var assembly = System.Reflection.Assembly.GetAssembly(typeof(ValuesController));
-
-            return assembly.GetName().Name;
-        }
+        public ActionResult<string> Get() => System.Reflection.Assembly.GetAssembly(typeof(ValuesController)).GetName().Name;
     }
 }
